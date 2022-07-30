@@ -1,0 +1,38 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+
+}
+td{
+  color: rgb(146, 139, 139);
+}
+td:hover{
+  cursor: pointer;
+  color: blueviolet;
+}
+
+.ListViewsMain {
+  display: flex;
+}
+.ListViewsB {
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  border: 3px solid green;
+  padding: 10px;
+}
+.ListViewsBa {
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  border: 3px solid green;
+  padding: 10px;
+}

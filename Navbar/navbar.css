@@ -1,0 +1,70 @@
+
+.navbarMain{
+    display: flex;
+    border: 2px solid black;
+}
+.navbarA{
+    display: flex;
+}
+.navbarAImg{
+    margin-right: 7px;
+    padding-right: 7px;
+    width: 55px;
+    border-right: 2px solid black;
+}
+.navbarAImg:hover{
+    cursor: pointer;
+}
+#navbarAAvatar{
+    margin: auto;
+    padding: 5px;
+}
+.navbarB{
+    display: flex;
+    margin: auto;  
+}
+.navbarBb{
+    margin: 3px;
+    justify-content: center;
+    text-align: center;
+   
+}
+.navbarC{
+    display: flex;
+}
+.navbarCa{
+    margin: auto;
+   
+    padding: 2px;
+    
+}
+#navbarCaSun{
+  
+    width: 31px;
+    height: 30px;
+}
+#navbarCaCountry{
+ 
+    width: 31px;
+    height: 31px; 
+}
+#navbarCaNotification{
+   
+    width: 31px;
+    height: 30px;    
+}
+#navbarCaGrid{
+   
+    width: 31px;
+    height: 30px;    
+}
+#navbarCaAvatar{
+   
+    width: 31px;
+    height: 30px; 
+    padding: 6px; 
+}
+.navbarCa :hover{
+cursor: pointer;
+background-color: blueviolet;
+}
